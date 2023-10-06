@@ -1,0 +1,35 @@
+Пользователь 1:
+Имя персонала: StarGazer
+Пароль: Moonlight#1
+
+Персонал 2:
+Имя персонала: CodeNinja
+Пароль: Cyber@123
+
+Персонал 3:
+Имя персонала: AdventureSeeker
+Пароль: Explore!Now
+
+Персонал 4:
+Имя персонала: ScienceGeek
+Пароль: LabRat$88
+
+Пользователь 1:
+Имя пользователя: NatureExplorer
+Пароль: Wilderness$22
+
+Пользователь 2:
+Имя пользователя: MusicMaestro
+Пароль: Harmony*2023
+
+Пользователь 3:
+Имя пользователя: ArtisticSoul
+Пароль: Palette&Color
+
+Пользователь 4:
+Имя пользователя: Bookworm
+Пароль: Chapter&Verse
+
+SuperAdmin;
+Имя админа: bill
+Пароль: bill

@@ -1,0 +1,25 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block sidebar %}
+    <div class="list-group">
+		<a href="{% url 'profile' %}" class="list-group-item list-group-item-action" aria-current="true">Профиль</a>
+		<a href="{% url 'post_list' %}" class="list-group-item list-group-item-action">Все заявки</a>
+		<a href="{% url 'category_list' %}" class="list-group-item list-group-item-action">Все категории</a>
+		<a href="{% url 'category_create' %}" class="list-group-item list-group-item-action">Создать категорию</a>
+	</div>
+{% endblock %}
+
+{% block content %}
+    <div class="content-section">
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form|crispy }}
+            </div>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Опубликовать</button>
+            </div>
+        </form>
+    </div>
+{% endblock content %}
